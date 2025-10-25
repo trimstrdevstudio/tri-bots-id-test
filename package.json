@@ -1,0 +1,55 @@
+{
+  "name": "tri-bots-id",
+  "version": "1.0.0", 
+  "type": "commonjs",
+  "description": "TRI BOTS ID - Advanced WhatsApp Bot Session Generator with Pairing Web and QR Scanner",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "run": "pm2 start index.js --deep-monitoring --attach --name tri-bots-id",
+    "start": "pm2 start index.js --deep-monitoring --attach --name tri-bots-id",
+    "tri": "pm2 start index.js --deep-monitoring --attach --name tri-bots-id",
+    "stop": "pm2 stop tri-bots-id", 
+    "restart": "pm2 restart tri-bots-id",
+    "reload": "pm2 reload tri-bots-id",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "tri-bots-id",
+    "tri-controls-bot", 
+    "tri-mstr-dev",
+    "whatsapp-bot",
+    "whatsapp-session",
+    "session-generator",
+    "pair-code",
+    "qr-scanner",
+    "whatsapp-web",
+    "baileys-md",
+    "whatsapp-api",
+    "bot-pairing",
+    "multi-device",
+    "whatsapp-login",
+    "session-management",
+    "tri-bot-framework",
+    "whatsapp-automation"
+  ],
+  "author": "TRI MSTR DEV STUDIO",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "github:XdKing2/Malvin-Baileys",
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.3.0", 
+    "node-fetch": "^2.6.1",
+    "pastebin-api": "^7.0.0",
+    "pino": "^8.1.0",
+    "phone": "3.1.30",
+    "body-parser": "^1.20.1",
+    "path": "^0.12.7",
+    "express": "^4.18.1",
+    "pm2": "^5.4.2",
+    "qrcode": "^1.5.3"
+  }
+}

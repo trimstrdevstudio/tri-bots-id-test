@@ -1,0 +1,24 @@
+{
+    "name": "tri-bots-id",
+    "description": "TRI BOTS ID - WhatsApp Session Generator",
+    "logo": "",
+    "repository": "https://github.com/tri-mstr-dev/TRI-CONTROLS-BOT",
+    
+    "keywords": [
+    "tri-bots-id",
+    "tri-mstr-dev",
+    "tri-controls-bot",
+    "whatsapp-bot",
+    "session-generator"
+    ],
+    
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+}
